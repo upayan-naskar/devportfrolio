@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Ubuntu+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #04182d;
+    font-family: Poppins;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(14, 5, 63);
+    position: fixed;
+    top: 0%;
+}
+
+.navbar .links {
+    display: flex;
+    margin-left: 900px;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navbar .links a:hover {
+    color: brown;
+}
+
+.navbar .links a:active {
+    
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: none;
+}
+.links-ham{
+    width: 100%;
+    height: 100px;
+    background-color: #160249;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px;
+    display: none;
+}
+.links-ham a{
+    text-decoration: none;
+    color: #fff;
+}
+.links-ham a:hover {
+    color: brown;
+}
+
+.links-ham a:active {
+    
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar h3 {
+    color: #fff;
+    font-family: Ubuntu Mono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.first-sec form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-sec form input,
+textarea {
+    width: 25%;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: Poppins;
+    background-color: #e4d3d3;
+    margin-top: 20px;
+}
+
+textarea {
+    height: 100px;
+    font-size: 15px;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 14%;
+}
+
+footer {
+    background-color: gray;
+}
+
+footer .copyright {
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+footer span {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .links {
+       display: none;
+    }
+    .links-ham{
+        display: none;
+    }
+
+    .navbar i {
+        display: flex;
+        margin-left: 5%;
+    }
+    .first-sec form input,
+    textarea {
+        width: 80%;
+        height: 40px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-family: Poppins;
+        background-color: #e4d3d3;
+        margin-top: 20px;
+        font-size: 11px;
+    }
+
+    textarea {
+        height: 100px;
+        font-size: 15px;
+    }
+
+    footer {
+        background-color: gray;
+    }
+
+    footer .copyright {
+        margin-left: 12%;
+        font-size: 20px;
+    }
+}

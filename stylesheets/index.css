@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Ubuntu+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #04182d;
+    font-family: Poppins;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(14, 5, 63);
+    position: fixed;
+    top: 0%;
+}
+
+.navbar .links {
+    display: flex;
+    margin-left: 900px;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navbar .links a:hover {
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar .links a:active {
+    color: brown;
+}
+
+.navbar h3 {
+    color: #fff;
+    font-family: Ubuntu Mono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.links-ham {
+    width: 100%;
+    height: 100px;
+    background-color: #160249;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    display: none;
+}
+
+.links-ham a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-ham a:hover {
+    color: brown;
+}
+
+.links-ham a:active {
+
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: none;
+}
+
+.first-sec {
+    display: flex;
+}
+
+.first-sec-left {
+    color: white;
+    height: 400px;
+    width: 500px;
+    font-family: Poppins;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.first-sec-left p {
+    font-size: 50px;
+}
+
+.first-sec-right {
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.first-sec-right img {
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.second-sec {
+    color: white;
+    margin: 100px;
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.second-sec h1 {
+    font-family: Raleway;
+}
+
+.second-sec p {
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.third-sec {
+    margin: 100px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.third-sec h1 {
+    margin-left: 10px;
+}
+
+.front {
+    margin-left: 25px;
+    font-family: Ubuntu Mono;
+    word-spacing: 20px;
+}
+
+.third-sec .front ul {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.third-sec ul {
+    margin-left: 50px;
+    font-size: 20px;
+    font-size: 25px;
+}
+
+.third-sec a {
+    text-decoration: none;
+    color: rgb(245, 213, 213);
+}
+
+footer {
+    background-color: gray;
+}
+
+footer .copyright {
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+footer span {
+    margin-left: 50px;
+}
+
+.follow {
+    display: flex;
+    margin-left: 100px;
+}
+
+.follow p {
+    font-size: 25px;
+}
+
+.follow p a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .links {
+        display: none;
+    }
+
+    .links-ham {
+        display: none;
+    }
+
+    .navbar i {
+        display: flex;
+        margin-left: 2%;
+    }
+
+    footer {
+        background-color: gray;
+    }
+
+    footer .copyright {
+        margin-left: 12%;
+        font-size: 20px;
+    }
+
+    .follow {
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .follow p {
+        font-size: 25px;
+    }
+
+    .follow p a {
+        text-decoration: none;
+        color: white;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+    .first-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-sec{
+        margin: 0px;
+    }
+    .first-sec .first-sec-left{
+        font-size: 40px;
+        height: 100%;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 6%;
+    }
+    .first-sec-right {
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .first-sec-right img {
+        width:80%;
+        border-radius: 100%;
+        border: 5px solid white;
+    }
+    .second-sec {
+        color: white;
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 10px;
+        border: 5px solid white;
+        padding: 10px;
+        width: 87%;
+        height: 100%;
+    }
+    
+    .second-sec h1 {
+        font-family: Raleway;
+    }
+    
+    .second-sec p {
+        font-family: Poppins;
+        font-size: 20px;
+    }
+    .third-sec {
+        margin-top: 10px;
+        margin-left: 10px;
+        border: 5px solid white;
+        border-radius: 10px;
+        width: 90%;
+        height: 100%;
+    }
+    
+    .third-sec h1 {
+        margin-left: 10px;
+    }
+    
+    .front {
+        margin-left: 25px;
+        font-family: Ubuntu Mono;
+        word-spacing: 5px;
+    }
+    
+    .third-sec .front ul {
+        margin-left: 45px;
+        font-size: 15px;
+        font-family: Raleway;
+    }
+    
+    .third-sec ul {
+        margin-left: 45px;
+        font-size: 15px;
+    }
+    
+    .third-sec a {
+        text-decoration: none;
+        color: rgb(245, 213, 213);
+    }}
+@media (min-width: 1281px) {
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #04182d;
+    font-family: Poppins;
+    color: white;
+}
+.navbar i{
+    display: none;
+}
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(14, 5, 63);
+    position: fixed;
+    top: 0%;
+}
+
+.navbar .links {
+    display: flex;
+    margin-left: 900px;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navbar .links a:hover {
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar .links a:active {
+    color: brown;
+}
+
+.navbar h3 {
+    color: #fff;
+    font-family: Ubuntu Mono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.links-ham {
+    width: 100%;
+    height: 100px;
+    background-color: #160249;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    display: none;
+}
+
+.links-ham a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-ham a:hover {
+    color: brown;
+}
+
+.links-ham a:active {
+
+    color: aquamarine;
+    font-size: 15px;
+}
+
+.navbar i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: none;
+}
+
+.first-sec {
+    display: flex;
+}
+
+.first-sec-left {
+    color: white;
+    height: 400px;
+    width: 500px;
+    font-family: Poppins;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.first-sec-left p {
+    font-size: 50px;
+}
+
+.first-sec-right {
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.first-sec-right img {
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.second-sec {
+    color: white;
+    margin: 100px;
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.second-sec h1 {
+    font-family: Raleway;
+}
+
+.second-sec p {
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.third-sec {
+    margin: 100px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.third-sec h1 {
+    margin-left: 10px;
+}
+
+.front {
+    margin-left: 25px;
+    font-family: Ubuntu Mono;
+    word-spacing: 20px;
+}
+
+.third-sec .front ul {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.third-sec ul {
+    margin-left: 50px;
+    font-size: 20px;
+    font-size: 25px;
+}
+
+.third-sec a {
+    text-decoration: none;
+    color: rgb(245, 213, 213);
+}
+
+footer {
+    background-color: gray;
+}
+
+footer .copyright {
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+footer span {
+    margin-left: 50px;
+}
+
+.follow {
+    display: flex;
+    margin-left: 100px;
+}
+
+.follow p {
+    font-size: 25px;
+}
+
+.follow p a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin-left: 10px;
+}
+
+}
